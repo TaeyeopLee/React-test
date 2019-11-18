@@ -20,7 +20,7 @@ class Counter extends React.Component<CounterProps, CounterState> {
 	}
 
 	componentDidMount() {
-		setInterval(this.increase, 100);
+		setInterval(this.increase, 1000);
 	}
 	increase = () => {
 		const { count } = this.state;
